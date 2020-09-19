@@ -1,13 +1,13 @@
 //Create a function to dynamically display the block in broswer window. Do this by targeting the html element id directy using #currentDay 
 // Create variable to store and loop through scheduler
 //1st log date and time for reference 
-// console.log(moment().format("dddd, MMMM Do"));
-// console.log(moment().format("h:mm:ss a"));
+console.log(moment().format("dddd, MMMM Do"));
+console.log(moment().format("h:mm:ss a"));
 
 
 // //Displays times in jumbotron
-// var currentDay = document.querySelector("#current-day");
-// currentDay.textContent = moment().format("dddd, MMMM Do");
+var currentDay = document.querySelector("#current-day");
+currentDay.textContent = moment().format("dddd, MMMM Do");
 
 
 // //Variables hooking to rest of the HTML elements on the page
