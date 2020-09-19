@@ -4,8 +4,8 @@ body {
   line-height: 1;
 }
 
-textarea{
-  background: visibile;
+textarea {
+  background: transparent;
   border: 0;
   resize: none;
   color: #000000;
@@ -15,18 +15,17 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  background-color: rgb(255, 255, 128);
+  background-color: transparent;
   color: black;
   border-radius: 0;
-  border-top: 30px solid rgb(136, 229, 245);
-  border-bottom: 30px solid rgb(136, 229, 245);
+  border-bottom: 10px solid black;
 }
 
-.description{
+.description {
   white-space: pre-wrap;
 }
 
-.time-block{
+.time-block {
   text-align: center;
   border-radius: 15px;
 }
@@ -63,7 +62,7 @@ textarea{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
-  color: rgb(51, 210, 228);
+  color:white;
 }
 
 .saveBtn i:hover {
